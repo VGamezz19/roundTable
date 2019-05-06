@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import ButtonComponent from './shared/Button';
+
 function App() {
   return (
     <div className="App">
@@ -17,6 +19,8 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+
+          <ButtonComponent text="Hello"/>
         </a>
       </header>
     </div>
